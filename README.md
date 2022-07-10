@@ -40,106 +40,42 @@ real-time_example
 -- get the information of the players with id = 101
 
 https://app-nodjs.herokuapp.com
+this is the result:
 
+{
+    "id": 101,
+    "wins": 10,
+    "losses": 3,
+    "points_scored": 7
+  }
 
 
 *POST method : 
-{
-    "id": 101,
-    "wins": 10,
-    "losses": 3,
-    "points_scored": 7
-  }
-
--- Create a new post with id = 101
-
-{
-    "id": 101,
-    "wins": 10,
-    "losses": 3,
-    "points_scored": 7
-  }
-
 -- Create a new post with id = 101
 
 https://app-nodjs.herokuapp.com
 
-
-  {
-    "id": 231,
-    "wins": 1,
-    "losses": 10,
-    "points_scored": 2
+the new post you want to send
+{
+    "id": 101,
+    "wins": 10,
+    "losses": 3,
+    "points_scored": 7
   }
+
 *PUT method : 
 
--- edit post with id = 231
-
-{
-    "id": 101,
-    "wins": 10,
-    "losses": 3,
-    "points_scored": 7
-  }
-
--- Create a new post with id = 101
-
-{
-    "id": 101,
-    "wins": 10,
-    "losses": 3,
-    "points_scored": 7
-  }
-
--- Create a new post with id = 101
-
-{
-    "id": 101,
-    "wins": 10,
-    "losses": 3,
-    "points_scored": 7
-  }
-
--- Create a new post with id = 101
-
-{
-    "id": 101,
-    "wins": 10,
-    "losses": 3,
-    "points_scored": 7
-  }
-
--- Create a new post with id = 101
-
-{
-    "id": 101,
-    "wins": 10,
-    "losses": 3,
-    "points_scored": 7
-  }
-
--- Create a new post with id = 101
+-- edit post with id = 101
 
 https://app-nodjs.herokuapp.com
 
-
-  {
-    "id": 231,
-    "wins": 1,
-    "losses": 10,
-    "points_scored": 2
+{
+    "id": 101,
+    "wins": 10,
+    "losses": 3,
+    "points_scored": 7
   }
-*PUT method : 
 
--- edit post with id = 231
-
-https://app-nodjs.herokuapp.com
-
-   "id": 145,
-    "wins": 5,
-    "losses": 1,
-    "points_scored": 14
-  }
 *DELETE method : 
 
 -- Delete a post with id = 145
@@ -156,190 +92,3 @@ Code	Title	Description
 201	Created	Every time a record has been added to the database (e.g. when creating a new user or post).
 404	Not found	When URL or entity is not found.
 500	Internal server error	When an internal error has happened (e.g. when trying to add/update records in the database fails).
-
-
-  {
-    "id": 231,
-    "wins": 1,
-    "losses": 10,
-    "points_scored": 2
-  }
-*PUT method : 
-
--- edit post with id = 231
-
-https://fathomless-depths-63942.herokuapp.com/api/v1/stats/20
-
-   "id": 145,
-    "wins": 5,
-    "losses": 1,
-    "points_scored": 14
-  }
-*DELETE method : 
-
--- Delete a post with id = 145
-
-
-Code 200 to let you know that you have indeed deleted the post 
-
-Status Codes
-
-the status codes and their meaning if you see them on the postman test or other test :
-
-Code	Title	Description
-200	OK	When a request was successfully processed (e.g. when using GET, PATCH, PUT or DELETE).
-201	Created	Every time a record has been added to the database (e.g. when creating a new user or post).
-404	Not found	When URL or entity is not found.
-500	Internal server error	When an internal error has happened (e.g. when trying to add/update records in the database fails).
-
-
-  {
-    "id": 231,
-    "wins": 1,
-    "losses": 10,
-    "points_scored": 2
-  }
-*PUT method : 
-
--- edit post with id = 231
-
-https://fathomless-depths-63942.herokuapp.com/api/v1/stats/20
-
-   "id": 145,
-    "wins": 5,
-    "losses": 1,
-    "points_scored": 14
-  }
-*DELETE method : 
-
--- Delete a post with id = 145
-
-
-Code 200 to let you know that you have indeed deleted the post 
-
-Status Codes
-
-the status codes and their meaning if you see them on the postman test or other test :
-
-Code	Title	Description
-200	OK	When a request was successfully processed (e.g. when using GET, PATCH, PUT or DELETE).
-201	Created	Every time a record has been added to the database (e.g. when creating a new user or post).
-404	Not found	When URL or entity is not found.
-500	Internal server error	When an internal error has happened (e.g. when trying to add/update records in the database fails).
-
-  {
-    "id": 231,
-    "wins": 1,
-    "losses": 10,
-    "points_scored": 2
-  }
-*PUT method : 
-
--- edit post with id = 231
-
-https://fathomless-depths-63942.herokuapp.com/api/v1/stats/20
-
-   "id": 145,
-    "wins": 5,
-    "losses": 1,
-    "points_scored": 14
-  }
-*DELETE method : 
-
--- Delete a post with id = 145
-
-
-Code 200 to let you know that you have indeed deleted the post 
-
-Status Codes
-
-the status codes and their meaning if you see them on the postman test or other test :
-
-Code	Title	Description
-200	OK	When a request was successfully processed (e.g. when using GET, PATCH, PUT or DELETE).
-201	Created	Every time a record has been added to the database (e.g. when creating a new user or post).
-404	Not found	When URL or entity is not found.
-500	Internal server error	When an internal error has happened (e.g. when trying to add/update records in the database fails).
-
-
-  {
-    "id": 231,
-    "wins": 1,
-    "losses": 10,
-    "points_scored": 2
-  }
-*PUT method : 
-
--- edit post with id = 231
-
-https://fathomless-depths-63942.herokuapp.com/api/v1/stats/20
-
-   "id": 145,
-    "wins": 5,
-    "losses": 1,
-    "points_scored": 14
-  }
-*DELETE method : 
-
--- Delete a post with id = 145
-
-
-Code 200 to let you know that you have indeed deleted the post 
-
-Status Codes
-
-the status codes and their meaning if you see them on the postman test or other test :
-
-Code	Title	Description
-200	OK	When a request was successfully processed (e.g. when using GET, PATCH, PUT or DELETE).
-201	Created	Every time a record has been added to the database (e.g. when creating a new user or post).
-404	Not found	When URL or entity is not found.
-500	Internal server error	When an internal error has happened (e.g. when trying to add/update records in the database fails).
-
-   "id": 145,
-    "wins": 5,
-    "losses": 1,
-    "points_scored": 14
-  }
-*DELETE method : 
-
--- Delete a post with id = 145
-
-
-Code 200 to let you know that you have indeed deleted the post 
-
-Status Codes
-
-the status codes and their meaning if you see them on the postman test or other test :
-
-Code	Title	Description
-200	OK	When a request was successfully processed (e.g. when using GET, PATCH, PUT or DELETE).
-201	Created	Every time a record has been added to the database (e.g. when creating a new user or post).
-404	Not found	When URL or entity is not found.
-500	Internal server error	When an internal error has happened (e.g. when trying to add/update records in the database fails).
-
-
-  {
-    "id": 231,
-    "wins": 1,
-    "losses": 10,
-    "points_scored": 2
-  }
-*PUT method : 
-
--- edit post with id = 231
-
-https://fathomless-depths-63942.herokuapp.com/api/v1/stats/20
-
-   "id": 145,
-    "wins": 5,
-    "losses": 1,
-    "points_scored": 14
-  }
-*DELETE method : 
-
--- Delete a post with id = 145
-
-
-Code 200 to let you know that you have indeed deleted the post 
-
