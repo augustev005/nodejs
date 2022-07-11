@@ -78,7 +78,7 @@ https://app-nodjs.herokuapp.com
 
 *DELETE method : 
 
--- Delete a post with id = 145
+-- Delete a post with id = 101
 
 
 Code 200 to let you know that you have indeed deleted the post 
